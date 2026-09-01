@@ -1,1 +1,16 @@
-
+{
+  "system": {
+    "maintenance_mode": false,
+    "allow_registration": true,
+    "log_level": "verbose"
+  },
+  "auth": {
+    "jwt_secret": "jwt_secret_token_xyz",
+    "oauth_callback": "/auth/callback",
+    "admin_role_id": 100
+  },
+  "features": {
+    "beta_access": true,
+    "swagger_enabled": true
+  }
+}
