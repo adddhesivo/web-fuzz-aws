@@ -1,3 +1,16 @@
 {
-    "secret":"gh.cevzre.unpxvat.jro.pba.bcyrfx"
+  "appName": "TestApp",
+  "environment": "development",
+  "debug": true,
+  "api": {
+    "baseUrl": "/api/v1",
+    "secretKey": "super_secret_key_123",
+    "internalEndpoint": "/api/admin/internal"
+  },
+  "database": {
+    "host": "localhost",
+    "port": 5432,
+    "user": "admin_user",
+    "dbName": "prod_db"
+  }
 }
