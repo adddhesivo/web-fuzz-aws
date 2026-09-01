@@ -1,8 +1,0 @@
-User-agent: *
-Disallow: /admin/
-Disallow: /api/v1/private/
-Disallow: /backup/
-Disallow: /config/
-Disallow: /logs/
-Disallow: /db_dump.sql
-Sitemap: https://ejemplo.com/sitemap.xml
